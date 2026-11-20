@@ -1,0 +1,2423 @@
+PROMPT COMPLETO — SEVEN LOUNGE & DRINKS
+CONCEITO: A NOITE COMEÇA AQUI
+
+Atue como diretor de arte de marcas gastronômicas e desenvolvedor front-end sênior. Construa um cardápio digital completo, interativo e memorável para Seven Lounge & Drinks. Use a identidade visual anexada e todos os dados estruturados ao final deste prompt. Entregue a aplicação funcionando, com o catálogo inteiro, não uma apresentação de ideias ou uma amostra com poucos produtos.
+
+1. DIREÇÃO CRIATIVA
+
+Crie a sensação de entrar em um lounge contemporâneo: preto profundo, letras brancas, laranja quente inspirado no letreiro, fotografia real de drinks e porções, espaço bem distribuído e movimentos elegantes. O visitante deve perceber personalidade na primeira tela e conseguir encontrar um item imediatamente.
+
+Conceito verbal: “A NOITE COMEÇA AQUI.”
+Texto de apoio: “Escolha seu drink. Encontre sua porção. Curta a Seven.”
+CTA principal: “Explorar o cardápio”.
+Atalhos secundários: “Drinks” e “Petiscos”, levando às respectivas categorias sem alterar a ordem do catálogo.
+
+O foco da marca é bar, drinks, gastronomia e encontro entre pessoas. Jogos continuam cadastrados na categoria original, mas não devem dominar a capa, a comunicação ou a identidade. Não transformar a Seven em um site gamer ou de transmissão de futebol, mesmo que a foto de referência contenha uma televisão.
+
+Evite template de agência, hero genérico com três benefícios, emojis decorativos, estética de aplicativo bancário, vidro fosco em todos os componentes, gradientes roxos, texturas pesadas, fumaça sobre alimentos, chuva de partículas e animações que atrapalhem escolher o que consumir.
+
+2. IDENTIDADE VISUAL E LOGO
+
+A referência mostra SEVEN em branco, o V laranja e fundo preto. Preserve absolutamente o símbolo e as proporções do logotipo original. Não redesenhar o V, não substituir por um número 7 e não inventar outra marca. Use a URL de logo fornecida no objeto loja ou um arquivo original anexado de melhor qualidade. Se não carregar, use temporariamente o nome em texto, sem ícone quebrado. Não usar o print inteiro como logotipo.
+
+Paleta proposta, aproximada pela referência visual:
+- Preto de fundo #08090B.
+- Carvão para superfícies #141518.
+- Branco quente #F5F3EE.
+- Laranja principal #FF5A16.
+- Laranja claro #FF9A52 para detalhes pequenos.
+- Cinza secundário #B9BCC3.
+São cores de direção artística, não códigos oficiais confirmados.
+
+A configuração técnica do cardápio de origem usa outra cor; para o novo design prevalece a identidade PRETO, BRANCO E LARANJA enviada pelo cliente.
+
+Use uma fonte display expressiva e sofisticada nos títulos e uma sans-serif muito legível nos textos. Máximo de duas famílias. O logo é um asset independente, não algo a reconstruir com uma fonte. Títulos grandes, descrições claras, preços com alinhamento consistente. Botões laranja devem ter texto escuro ou outro contraste comprovadamente legível; não usar texto branco minúsculo sobre laranja claro.
+
+Detalhe autoral: use linhas finas laranja que evocam o desenho angular do V, sem criar uma versão nova da logo. Elas podem delimitar recortes fotográficos ou aparecer discretamente nos títulos de seção. O brilho pode existir apenas como um acento muito contido junto ao letreiro/linha, sem aplicar glow em todo o texto.
+
+3. ABERTURA CINEMATOGRÁFICA LEVE
+
+Desktop: composição editorial assimétrica. Título grande à esquerda e fotografia vertical de drink à direita, com uma segunda fotografia menor de porção criando profundidade. Fotografias reais, bem enquadradas e sem deformação. O fundo escuro e uma faixa laranja fina devem integrar a composição.
+
+Mobile: marca no topo, título em duas ou três linhas e uma imagem de drink dominante. O botão “Explorar o cardápio” aparece cedo. Um fragmento da próxima seção convida a rolar. Não ocupar várias telas com introdução nem exigir uma animação de abertura antes de liberar o conteúdo.
+
+Use como referências de produtos, somente com a imagem corretamente associada:
+- Strawberry mule, id 467436.
+- Gin de Morango, id 403862.
+- Picanha na Chapa, id 505254.
+- Chapa Mista Seven, id 505255.
+
+Não coloque foto de uma bebida sob o nome de outra. Se mostrar preço no hero, ele deve vir do mesmo registro do produto, nunca de um valor digitado separadamente. Fotos pequenas não devem ser ampliadas além do que sua resolução suporta; privilegie composição e tipografia até receber fotografias maiores.
+
+Entrada suave de aproximadamente 600–900 ms: título, imagem e CTA surgem com opacidade e pequeno deslocamento. O conteúdo já fica disponível durante a animação. Respeitar movimento reduzido. Não usar splash screen obrigatório, autoplay com áudio nem WebGL pesado para fazer a capa funcionar.
+
+4. NAVEGAÇÃO E CATÁLOGO
+
+Crie uma experiência mobile-first com:
+- Cabeçalho compacto que acompanha a rolagem.
+- Busca acessível em um toque.
+- Barra de categorias com rolagem horizontal natural e categoria ativa.
+- Botão “Categorias” abrindo o índice completo com todas as 14 categorias, sem depender de deslizar dezenas de vezes.
+- Clique na categoria faz scroll para a seção correta, compensando a altura dos elementos fixos.
+- Atualização da categoria ativa conforme a leitura.
+- Barra inferior discreta com “Cardápio” e “Favoritos”, respeitando safe-area.
+
+Desktop: índice lateral e catálogo com largura limitada. Não simplesmente esticar a versão mobile por toda a tela.
+
+Preserve a ordem das categorias e dos subgrupos no JSON ao final. Os produtos dentro de cada subgrupo também seguem a sequência fornecida. Não ordenar alfabeticamente, por preço ou popularidade.
+
+Os dados já foram organizados segundo a regra de apresentação da origem: primeiro os subgrupos cadastrados na ordem recebida, depois os produtos sem subgrupo. Por exemplo, Cervejas começa com Garrafa 600 ml, depois Outros e Long Neck. Não reordenar usando o ID do produto. Um bloco sem título de subgrupo não deve ganhar um título inventado.
+
+Cards de drinks e petiscos com foto: imagem 3:2, nome, descrição original quando existir, preço e indicação clara de detalhes. Uma coluna confortável em celulares estreitos, duas ou três no desktop. Garrafas e bebidas simples podem usar linhas mais compactas com miniatura. Mantenha todos os itens acessíveis; não esconda o catálogo em carrosséis.
+
+Intercale visualmente cabeçalhos de categoria com numeração discreta e respiro. A categoria ativa pode ganhar um pequeno traço laranja. Não pintar cada card inteiro de laranja.
+
+Os produtos sem foto usam composição tipográfica bem acabada. Não inserir hambúrgueres genéricos, imagens de bancos de terceiros, fotografias falsas ou placeholders enormes com emojis.
+
+5. HAPPY HOUR — REGRA IMPORTANTE
+
+A categoria Happy Hour possui 12 registros próprios e programação semanal própria. Ela não é um desconto global aplicado às demais categorias.
+
+Horários cadastrados:
+- Segunda a quinta: 15h às 19h.
+- Sexta, sábado e domingo: 12h às 18h.
+
+Use America/Sao_Paulo como fuso do estabelecimento, configurável. Não usar o fuso do visitante nem assumir que a loja está aberta só porque é horário de promoção. A programação do Happy Hour não é o horário de funcionamento do bar.
+
+A nova interface deve deixar os 12 itens consultáveis mesmo fora do horário, claramente identificados como “Valores válidos no horário do Happy Hour”. Isso é uma escolha de usabilidade: a origem oculta a categoria conforme o horário, mas aqui a pessoa deve poder consultar sua programação sem confundir preços promocionais com os regulares.
+
+Mostrar a programação antes dos itens. Fora do período, usar “Fora do horário do Happy Hour”; durante, “Dentro do horário programado”, sem promessa de estoque ou disponibilidade em tempo real. Atualizar ao mudar de minuto e ao retornar à aba. Não criar contagem regressiva de escassez.
+
+Casos obrigatórios:
+- Chopp Brahma regular custa R$ 14,90. No Happy Hour, o registro é R$ 11,90; preço base e promocional desse registro são iguais, então não criar preço riscado nem porcentagem de desconto nesse card.
+- Gin Tropical e Gin Morango do Happy Hour têm base R$ 30,00 e promocional R$ 15,00.
+- Os drinks regulares Gin Tropical e Gin de Morango custam R$ 32,90 e são registros diferentes.
+- PS4 e PS5 do Happy Hour estão cadastrados a R$ 0,00, enquanto os registros regulares custam R$ 30,00 e R$ 40,00. Preservar os valores e o contexto, sem promover como gratuidade irrestrita.
+
+6. DETALHE DO PRODUTO
+
+Ao tocar em um produto, abrir um painel de baixo para cima no mobile e um modal no desktop. Transição curta e elegante; manter a posição de rolagem ao fechar.
+
+Exibir:
+- Foto real associada ao ID.
+- Nome original e categoria/subgrupo.
+- Descrição integral quando existir, preservando quebras de linha.
+- Preço atual do registro e base riscada somente quando houver promoção menor que a base.
+- Contexto do Happy Hour quando aplicável.
+- Botão de favoritar para itens gastronômicos e bebidas.
+
+Não existe uma integração de pedidos comprovada neste escopo. O resultado é um cardápio para consulta. Não inventar carrinho, checkout, pedido enviado, atendimento WhatsApp, mesa vinculada, reserva ou pagamento. Não transformar o link do cardápio de origem em um botão “Finalizar pedido”. Se necessário, use “Ver cardápio original” no rodapé.
+
+A categoria Sessão e seus correspondentes no Happy Hour ficam como transcrição informativa dos registros existentes, sem destaques promocionais próprios, sugestão automática, favoritos, compra ou chamadas para consumo. O foco editorial continua em gastronomia e ambiente.
+
+Não deduzir “serve X pessoas”, ausência de álcool, alergênicos ou restrições alimentares a partir de campos padrões: os registros de origem usam valores genéricos em diversos produtos. Exibir essas informações somente quando constarem expressamente no nome ou descrição validada. Não classificar um drink como sem álcool apenas por um booleano falso.
+
+7. BUSCA, FAVORITOS E MOVIMENTO
+
+Busca por nome e descrição, ignorando acentos e caixa apenas na comparação. A busca não altera o texto do cadastro. Resultados mantêm a ordem do catálogo, mostram categoria e contexto de Happy Hour. Se o nome se repete, mostrar ambos os registros com seu contexto e preço.
+
+Favoritos persistem localmente, identificados pelo ID original. Não sincronizar gostos com a plataforma de origem nem inventar números de curtidas. Tela vazia com retorno ao cardápio. Favoritos de Happy Hour continuam identificados e sujeitos ao horário informado.
+
+Link local compartilhável para produto, por exemplo ?produto=467436. Abrir diretamente deve mostrar esse produto. Voltar no navegador fecha o painel e restaura a navegação. Não fingir que esse parâmetro é uma integração com DGuests.
+
+Animações: revelações de 150–350 ms, deslocamentos pequenos, transição de destaque de categoria e feedback de toque. Parallax mínimo somente em desktop com ponteiro preciso. Não prender scroll, não esconder conteúdo aguardando animação e não usar cursor personalizado.
+
+8. MÍDIA E VÍDEOS
+
+O JSON contém referências de mídia vinculadas aos registros. Use as URLs de fotos existentes, com fallback em caso de erro. Não atribuir a mesma foto de drink a produtos sem imagem. Não presumir que toda URL tem resolução de capa.
+
+A logo original está indicada em loja.logoUrl. O print fornecido é referência de identidade, não uma imagem para incorporar inteira na interface.
+
+Prepare campos image, video e poster editáveis por produto. Vídeos futuros: muted, loop, playsInline, sem controles sobre o card, reprodução apenas quando visíveis e no máximo um vídeo de produto por vez. Pausar ao sair da tela ou ocultar a aba. Respeitar economia de dados e movimento reduzido. Falha de autoplay mantém o poster e nunca bloqueia a navegação.
+
+Não existem vídeos fornecidos neste pacote. Portanto, não criar falsos vídeos ou botões de play vazios. A primeira entrega usa fotos reais; a estrutura fica pronta para receber os arquivos posteriormente.
+
+9. CONTEÚDO — FIDELIDADE TOTAL
+
+O JSON ao final contém 136 registros em 14 categorias, incluindo o Happy Hour. Não entregar apenas uma amostra. Não excluir itens porque estão sem descrição ou a R$ 0,00. Não deduplicar títulos repetidos, não completar ingredientes, não inventar gramaturas ou tamanhos.
+
+Preserve a grafia original do cadastro. Corrigir apenas textos de interface que você criar. Nome de produto como “Cola Cola Zero”, “Gin Tonica”, “viuva negra” e “sexy one the beach” deve permanecer conforme a fonte até uma revisão editorial expressamente autorizada. Espaços finais podem ser visualmente imperceptíveis, mas a string original deve continuar no cadastro.
+
+Descrições vazias ficam vazias; o frontend omite o parágrafo. Não mostrar “null” ou inventar uma descrição comercial. Preserve os ingredientes das chapas sem introduzir acompanhamentos não informados.
+
+Preços em reais aparecem nos campos preco e precoPromocional. Converter para centavos com arredondamento adequado ao carregar no modelo; formatar como BRL/pt-BR para mostrar na tela. Preço ausente é null, diferente de zero. Sem frete, taxas, descontos calculados ou totalização de pedidos neste escopo.
+
+As URLs de fotos e os IDs são os identificadores fornecidos, não devem ser substituídos por nomes inferidos. Preserve categoriaId, subgrupoId e ordemFonte para rastreabilidade; o array de blocos define a ordem de exibição.
+
+Não incluir dados de outras marcas, o catálogo da Touros, preços da Onze ou descrições de versões anteriores. Este arquivo já contém o retrato da Seven consultado em 12/11/2026. Não anunciar sincronização automática com o site original.
+
+10. IMPLEMENTAÇÃO
+
+Use React, TypeScript e Tailwind, dependências compatíveis com o ambiente disponível e CSS ou uma única biblioteca de animação. Componentes claros: Hero, CategoryNav, CategoryIndex, ProductCard, ProductDetails, Search, Favorites e HappyHourNotice.
+
+Dados, mídia, configurações da loja e interface separados. Não é necessário login, banco, IA em tempo real ou chave de API para consultar o cardápio. Não chamar a API de origem em cada visita: o JSON é o conteúdo inicial local.
+
+Não inventar telefone, endereço, Instagram ou funcionamento do bar. Deixar essas informações opcionais na configuração e ocultar controles sem destino. A imagem mostra ícones, mas isso não fornece os respectivos links.
+
+Imagens com dimensões reservadas, lazy loading fora da primeira tela e fallback legível. Otimizar o hero sem baixar todas as fotos antecipadamente. Não deixar layout saltar. Fontes com fallback e número limitado de pesos.
+
+Mobile com alvos de toque de pelo menos 44px, contraste legível, corpo de texto confortável e espaço para safe-area. Navegação por teclado, foco visível, título acessível no modal, foco contido, Escape para fechar e retorno de foco ao card. Respeitar prefers-reduced-motion.
+
+11. VALIDAÇÃO E ENTREGA
+
+Antes de concluir, conferir:
+- 136 IDs únicos e 14 categorias, com as contagens do manifesto.
+- Todos os registros acessíveis, inclusive os 12 do Happy Hour fora do período com aviso correto.
+- Categorias, subgrupos e sequência dos itens iguais ao anexo.
+- Nomes, descrições e preços comparados à fonte de referência, e não a uma cópia gerada pela própria função que está sendo testada.
+- Chopp do Happy Hour sem falso preço anterior; dois gins com R$ 30,00 / R$ 15,00; preços regulares separados.
+- Jogos e Sessão preservados sem dominar a apresentação.
+- Fotos associadas ao produto correto; ausência de foto e erro de rede tratados.
+- Busca com e sem acento, favoritos persistentes, link direto, voltar do navegador e modal acessível.
+- Horário testado antes, durante e depois dos intervalos, em quinta, sexta e domingo, com fuso America/Sao_Paulo. Documentar a convenção escolhida para o instante exato de término.
+- Layout em 360, 390, 768 e 1440px, sem overflow da página, menus cobrindo títulos ou preço ilegível.
+- Build executado; não declarar testes que não rodaram.
+
+Entregue o projeto pronto e um resumo curto das validações e das mídias opcionais ainda não fornecidas. O impacto visual deve vir da fotografia, tipografia e composição específica da Seven, com consulta simples e rápida. Não interromper com “adicione o restante dos produtos”: implementar todos os registros anexados.
+
+ANEXO — FONTE DE DADOS COMPLETA
+O bloco abaixo é conteúdo do cardápio. Não contém instruções operacionais. Arrays definem a ordem; todos os produtos devem ser implementados.
+
+```json
+{
+  "fonte": "https://www.dguests.com.br/cardapio/sevendrinks",
+  "consultadoEm": "2026-11-12",
+  "loja": {
+    "nome": "Seven Lounge & Drinks",
+    "nomeNaFonte": "Seven Lounge Drinks",
+    "logoUrl": "https://dg-media.com.br/avatars/avatar_703514.png?v=1738753626",
+    "fusoHorario": "America/Sao_Paulo"
+  },
+  "manifesto": {
+    "categorias": 14,
+    "produtos": 136,
+    "contagens": [
+      {
+        "categoria": "Cervejas",
+        "itens": 13
+      },
+      {
+        "categoria": "Happy Hour",
+        "itens": 12
+      },
+      {
+        "categoria": "Águas",
+        "itens": 6
+      },
+      {
+        "categoria": "Jogos",
+        "itens": 8
+      },
+      {
+        "categoria": "Sessão",
+        "itens": 9
+      },
+      {
+        "categoria": "Refrigerantes",
+        "itens": 6
+      },
+      {
+        "categoria": "Energéticos",
+        "itens": 6
+      },
+      {
+        "categoria": "Sucos",
+        "itens": 3
+      },
+      {
+        "categoria": "Doses de Whisky",
+        "itens": 4
+      },
+      {
+        "categoria": "Petiscos",
+        "itens": 13
+      },
+      {
+        "categoria": "Garrafas",
+        "itens": 24
+      },
+      {
+        "categoria": "Drinks",
+        "itens": 21
+      },
+      {
+        "categoria": "Doses",
+        "itens": 8
+      },
+      {
+        "categoria": "sobremesas ",
+        "itens": 3
+      }
+    ]
+  },
+  "categorias": [
+    {
+      "id": 44858,
+      "titulo": "Cervejas",
+      "observacao": "Cervejas long neck & garrafas de 600 ml",
+      "horarios": null,
+      "ordem": 1,
+      "blocos": [
+        {
+          "subgrupoId": 18839,
+          "titulo": "Garrafa 600 ml",
+          "produtos": [
+            {
+              "id": 400726,
+              "categoriaId": 44858,
+              "subgrupoId": 18839,
+              "ordemFonte": 8,
+              "nome": "Amstel Lager",
+              "descricao": "Garrafa de 600 ml",
+              "preco": 15.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400728,
+              "categoriaId": 44858,
+              "subgrupoId": 18839,
+              "ordemFonte": 9,
+              "nome": "Original",
+              "descricao": "Garrafa de 600 ml",
+              "preco": 16.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400728.png?v=1780739749",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 491302,
+              "categoriaId": 44858,
+              "subgrupoId": 18839,
+              "ordemFonte": 11,
+              "nome": "Heineken",
+              "descricao": "Garrafa de 600 ml",
+              "preco": 19.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": 18840,
+          "titulo": "Outros",
+          "produtos": [
+            {
+              "id": 400723,
+              "categoriaId": 44858,
+              "subgrupoId": 18840,
+              "ordemFonte": 7,
+              "nome": "Chopp Brahma",
+              "descricao": "Copo chopp cerveja brahma 330ml",
+              "preco": 14.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400723.png?v=94772178",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400729,
+              "categoriaId": 44858,
+              "subgrupoId": 18840,
+              "ordemFonte": 10,
+              "nome": "Preparo de Cozumel",
+              "descricao": "Acompanhado com calda de limão, sal e gelo.\r\n\r\n",
+              "preco": 8.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400729.png?v=1995568847",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": 18838,
+          "titulo": "Long Neck",
+          "produtos": [
+            {
+              "id": 400706,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 1,
+              "nome": "Budweiser",
+              "descricao": "Cerveja long neck",
+              "preco": 13,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400706.png?v=234620202",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400707,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 2,
+              "nome": "Sol Mexicana",
+              "descricao": "Cerveja long neck",
+              "preco": 13,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400707.png?v=405739956",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400714,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 3,
+              "nome": "Corona",
+              "descricao": "Cerveja long neck",
+              "preco": 14,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400714.png?v=1619772547",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400716,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 4,
+              "nome": "Skol Beats Trad.",
+              "descricao": "Cerveja long neck",
+              "preco": 16.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400716.png?v=1189541281",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400718,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 5,
+              "nome": "Skol Beats GT",
+              "descricao": "Cerveja long neck",
+              "preco": 14.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400718.png?v=1578088340",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400719,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 6,
+              "nome": "Smirnoff Ice",
+              "descricao": "Cerveja long neck",
+              "preco": 16.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400719.png?v=2065355751",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 491303,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 12,
+              "nome": "Heineken",
+              "descricao": "cerveja heineken long neck",
+              "preco": 14,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 491304,
+              "categoriaId": 44858,
+              "subgrupoId": 18838,
+              "ordemFonte": 13,
+              "nome": "Heineken Zero",
+              "descricao": "Cerveja long neck",
+              "preco": 14,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44862,
+      "titulo": "Happy Hour",
+      "observacao": "confira agora por tempo limitado produtos com ofertas especiais!",
+      "horarios": {
+        "inicioSegunda": "15:00:00",
+        "fimSegunda": "19:00:00",
+        "inicioTerca": "15:00:00",
+        "fimTerca": "19:00:00",
+        "inicioQuarta": "15:00:00",
+        "fimQuarta": "19:00:00",
+        "inicioQuinta": "15:00:00",
+        "fimQuinta": "19:00:00",
+        "inicioSexta": "12:00:00",
+        "fimSexta": "18:00:00",
+        "inicioSabado": "12:00:00",
+        "fimSabado": "18:00:00",
+        "inicioDomingo": "12:00:00",
+        "fimDomingo": "18:00:00"
+      },
+      "ordem": 2,
+      "blocos": [
+        {
+          "subgrupoId": 18843,
+          "titulo": "Jogos",
+          "produtos": [
+            {
+              "id": 400766,
+              "categoriaId": 44862,
+              "subgrupoId": 18843,
+              "ordemFonte": 2,
+              "nome": "PS4",
+              "descricao": "A hora do PS4",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400766.png?v=850425135",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400782,
+              "categoriaId": 44862,
+              "subgrupoId": 18843,
+              "ordemFonte": 3,
+              "nome": "PS5",
+              "descricao": "A hora do PS5",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400782.png?v=71191057",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": 18844,
+          "titulo": "Bebidas",
+          "produtos": [
+            {
+              "id": 400725,
+              "categoriaId": 44862,
+              "subgrupoId": 18844,
+              "ordemFonte": 1,
+              "nome": "Chopp Brahma",
+              "descricao": "Copo chopp de 330 ml",
+              "preco": 11.9,
+              "precoPromocional": 11.9,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400725.png?v=1454922663",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": 18845,
+          "titulo": "Sessão Narguile",
+          "produtos": [
+            {
+              "id": 499338,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 6,
+              "nome": "Sessão Tangiers (Cane Mint)",
+              "descricao": "Burley\r\nNoir",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400795.png?v=1253801169",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499339,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 7,
+              "nome": "Sessão Ziggy",
+              "descricao": "Duas maçãs verdes\r\nFrutas amarelas\r\nFresh lemon\r\nBanana tropical\r\nBurley mint\r\nGrape\r\nDuas goiabas \r\nYogurt\r\nCherry \r\nWatermelon bomb\r\nTutti\r\nFrutas roxas\r\nSorvete de pistache \r\nBerry",
+              "preco": 10,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499313.png?v=394575841",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499341,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 8,
+              "nome": "Sessão Nay",
+              "descricao": "Chiclete com canela \r\nVanilla\r\nPrime mint\r\nFresh melon\r\nMaracujá blend",
+              "preco": 10,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499314.png?v=620453172",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499342,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 9,
+              "nome": "Sessão Zomo",
+              "descricao": "Strong mint\r\nBala de morango\r\nSwiss alps",
+              "preco": 10,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499319.png?v=777685230",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499344,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 10,
+              "nome": "Sessão Onix",
+              "descricao": "Pear\r\nManga tropical",
+              "preco": 10,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499321.png?v=1230723769",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499346,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 11,
+              "nome": "Sessão Adalya",
+              "descricao": "Love 66",
+              "preco": 10,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499323.png?v=1150206280",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499347,
+              "categoriaId": 44862,
+              "subgrupoId": 18845,
+              "ordemFonte": 12,
+              "nome": "Sessão Tangiers (Sabores)",
+              "descricao": "Horchata (Arroz doce)\r\nCocoa (Cacau)\r\nKashmir peach (Pêssego floral)\r\nChocolate iced cream (Sorvete de chocolate)\r\nStrawberry lemonade (Limonada de morango)\r\nStrawberry kiwi (Morango e kiwi)\r\nPikina sun (Licor de abacaxi e limão siciliano)\r\nErics mango (Suco de manga)\r\nForeplay on the peach (Pêssego)\r\nLemon lime (Limão)\r\nBrasil strawberry (Morango brasileiro)\r\nBubble gum (Chiclete de blueberry)\r\nOrange soda (Refrigerante de laranja)\r\nBanana foster (Banana caramelizada e baunilha)\r\nPapaya sorbet (Sorvete de mamão)\r\nKashmir lime (Limão floral)\r\nCardamon cheesecake (Torta de queijo com cardamon)\r\nSage mint (Menta com sálvia)\r\nPinetops (Abacaxi floral)\r\nMixed fruit with whipped cream (Salada de frutas vermelhas com chantilly)",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499335.png?v=2136527816",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": 20634,
+          "titulo": "Drinks",
+          "produtos": [
+            {
+              "id": 444082,
+              "categoriaId": 44862,
+              "subgrupoId": 20634,
+              "ordemFonte": 4,
+              "nome": "Gin Tropical",
+              "descricao": "",
+              "preco": 30,
+              "precoPromocional": 15,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444082.png?v=878801132",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444087,
+              "categoriaId": 44862,
+              "subgrupoId": 20634,
+              "ordemFonte": 5,
+              "nome": "Gin Morango",
+              "descricao": "",
+              "preco": 30,
+              "precoPromocional": 15,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444087.png?v=1584365281",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44863,
+      "titulo": "Águas",
+      "observacao": "Águas com e sem gás, derivados.....",
+      "horarios": null,
+      "ordem": 3,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400730,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Água c/ gás",
+              "descricao": "Garrafinha de 500 ml",
+              "preco": 6,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400730.png?v=242259072",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400731,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Água s/ gás",
+              "descricao": "Garrafinha de 500 ml",
+              "preco": 6,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400731.png?v=853195757",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400733,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Água de Coco ",
+              "descricao": "Água de coco ",
+              "preco": 13.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400733.png?v=522425815",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400735,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Tônica Antarctica",
+              "descricao": "Água tônica Antarctica 350 ml",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400735.png?v=1640155188",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444088,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Gelo de Coco",
+              "descricao": "",
+              "preco": 14.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444088.png?v=200970373",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 491301,
+              "categoriaId": 44863,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Água perrier",
+              "descricao": "",
+              "preco": 14,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_491301.png?v=1293391051",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44864,
+      "titulo": "Jogos",
+      "observacao": "Video game e jogos populares",
+      "horarios": null,
+      "ordem": 4,
+      "blocos": [
+        {
+          "subgrupoId": 18842,
+          "titulo": "Pagos",
+          "produtos": [
+            {
+              "id": 400762,
+              "categoriaId": 44864,
+              "subgrupoId": 18842,
+              "ordemFonte": 7,
+              "nome": "PS4",
+              "descricao": "A hora do PS4",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400762.png?v=765204243",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400763,
+              "categoriaId": 44864,
+              "subgrupoId": 18842,
+              "ordemFonte": 8,
+              "nome": "PS5",
+              "descricao": "A hora do PS5",
+              "preco": 40,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400763.png?v=1033269126",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        },
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400755,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Banco Imobiliário ",
+              "descricao": "Jogo Banco Imobiliário ",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400755.png?v=1414220628",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400756,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "War",
+              "descricao": "Jogo War",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400756.png?v=1141001074",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400757,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Dama",
+              "descricao": "Jogo de tabuleiro Dama",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400757.png?v=1567271384",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400758,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Xadrez",
+              "descricao": "Jogo de tabuleiro xadrez",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400758.png?v=1728472327",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400759,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Dominó",
+              "descricao": "Jogo de dominó",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400759.png?v=1247599665",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400760,
+              "categoriaId": 44864,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Roleta",
+              "descricao": "Jogo da roleta",
+              "preco": 0,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400760.png?v=1556872866",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44870,
+      "titulo": "Sessão",
+      "observacao": "Sessão de narguilé, consulte sabores e marcas disponíveis. ",
+      "horarios": null,
+      "ordem": 5,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400795,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Sessão Tangiers (Cane Mint)",
+              "descricao": "Burley\r\nNoir",
+              "preco": 50,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400795.png?v=504481728",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499313,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Sessão Ziggy",
+              "descricao": "Duas maçãs verdes\r\nFrutas amarelas\r\nFresh lemon\r\nBanana tropical\r\nBurley mint\r\nGrape\r\nDuas goiabas \r\nYogurt\r\nCherry \r\nWatermelon bomb\r\nTutti\r\nFrutas roxas\r\nSorvete de pistache \r\nBerry",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499313.png?v=698581189",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499314,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Sessão Nay",
+              "descricao": "Chiclete com canela \r\nVanilla\r\nPrime mint\r\nFresh melon\r\nMaracujá blend",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499314.png?v=1709354216",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499319,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Sessão Zomo",
+              "descricao": "Strong mint\r\nBala de morango\r\nSwiss alps",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499319.png?v=137533500",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499321,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Sessão Onix",
+              "descricao": "Pear\r\nManga tropical",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499321.png?v=386940519",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499323,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Sessão Adalya",
+              "descricao": "Love 66",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499323.png?v=1116598119",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 499335,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 7,
+              "nome": "Sessão Tangiers (Sabores)",
+              "descricao": "Horchata (Arroz doce)\r\nCocoa (Cacau)\r\nKashmir peach (Pêssego floral)\r\nChocolate iced cream (Sorvete de chocolate)\r\nStrawberry lemonade (Limonada de morango)\r\nStrawberry kiwi (Morango e kiwi)\r\nPikina sun (Licor de abacaxi e limão siciliano)\r\nErics mango (Suco de manga)\r\nForeplay on the peach (Pêssego)\r\nLemon lime (Limão)\r\nBrasil strawberry (Morango brasileiro)\r\nBubble gum (Chiclete de blueberry)\r\nOrange soda (Refrigerante de laranja)\r\nBanana foster (Banana caramelizada e baunilha)\r\nPapaya sorbet (Sorvete de mamão)\r\nKashmir lime (Limão floral)\r\nCardamon cheesecake (Torta de queijo com cardamon)\r\nSage mint (Menta com sálvia)\r\nPinetops (Abacaxi floral)\r\nMixed fruit with whipped cream (Salada de frutas vermelhas com chantilly)",
+              "preco": 50,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_499335.png?v=1974928669",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 558744,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 8,
+              "nome": "Pod ignite v120",
+              "descricao": "",
+              "preco": 120,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 558745,
+              "categoriaId": 44870,
+              "subgrupoId": null,
+              "ordemFonte": 9,
+              "nome": "Pod ignite v250 ",
+              "descricao": "",
+              "preco": 150,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44871,
+      "titulo": "Refrigerantes",
+      "observacao": "Refrigerantes em Lata e 500ml",
+      "horarios": null,
+      "ordem": 6,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400814,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Coca Cola",
+              "descricao": "Refrigerante coca cola lata",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400814.png?v=2060003383",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400815,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Cola Cola Zero",
+              "descricao": "Refrigerante coca cola zero lata",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400815.png?v=1902669612",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400816,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Fanta",
+              "descricao": "Refrigerante Fanta Laranja lata",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400816.png?v=1257285574",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400819,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Guaraná Antarctica",
+              "descricao": "Refrigerante Guaraná lata",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400819.png?v=959720172",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400821,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Guaraná Antarctica Zero",
+              "descricao": "Refrigerante Guaraná Antarctica Zero lata",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400821.png?v=1930457442",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400831,
+              "categoriaId": 44871,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "H2O Limoneto",
+              "descricao": "Refrigerante 500 ml H2O Limoneto",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400831.png?v=1293242333",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44877,
+      "titulo": "Energéticos",
+      "observacao": "Energéticos Tradicional e Sabores",
+      "horarios": null,
+      "ordem": 7,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400895,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Red Bull Tradicional",
+              "descricao": "Energético Red Bull Tradicional 250 ml",
+              "preco": 18.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400895.png?v=96113710",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400897,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Red Bull Tradicional Zero",
+              "descricao": "Energético Red Bull Tradicional Zero 250 ml",
+              "preco": 18.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400897.png?v=976431621",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400898,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Red Bull Tropical",
+              "descricao": "Energético Red Bull Tropical 250 ml",
+              "preco": 18.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400898.png?v=1427462545",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400900,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Red Bull Melancia",
+              "descricao": "Energético Red Bull Melancia 250 ml",
+              "preco": 18.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400900.png?v=1391076670",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400901,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Extra Power Tradicional",
+              "descricao": "Energético Extra Power Tradicional 270 ml",
+              "preco": 13.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400901.png?v=1949392582",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400914,
+              "categoriaId": 44877,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Tônica Pink Lemonade",
+              "descricao": "ST Pierre pink lemonade lata 270 ml",
+              "preco": 14,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400914.png?v=1805357831",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44892,
+      "titulo": "Sucos",
+      "observacao": "Sucos em lata e Natural",
+      "horarios": null,
+      "ordem": 8,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400951,
+              "categoriaId": 44892,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Caldo de Laranja",
+              "descricao": "Suco de caldo de laranja 500 ml",
+              "preco": 14.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400951.png?v=175781697",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400961,
+              "categoriaId": 44892,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "La fruit Maracujá",
+              "descricao": "Suco La fruit Maracujá lata 350 ml",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400961.png?v=540768044",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400964,
+              "categoriaId": 44892,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "La fruit Uva",
+              "descricao": "Suco La fruit Uva lata 350 ml",
+              "preco": 7.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400964.png?v=528492119",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44897,
+      "titulo": "Doses de Whisky",
+      "observacao": "Doses de Whisky com dosador.",
+      "horarios": null,
+      "ordem": 9,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 400985,
+              "categoriaId": 44897,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Dose Chivas 12y",
+              "descricao": "Dose Chivas 12y",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400985.png?v=2043342706",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400986,
+              "categoriaId": 44897,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Dose Old Parr",
+              "descricao": "Dose de Whisky Old Parr",
+              "preco": 20,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400986.png?v=1309900792",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400990,
+              "categoriaId": 44897,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Dose Buchanans",
+              "descricao": "Dose de whisky Buchanans",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400990.png?v=1536316481",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 400991,
+              "categoriaId": 44897,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Dose Jack Daniels",
+              "descricao": "Dose de whisky Jack Daniels",
+              "preco": 20,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_400991.png?v=328164901",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45041,
+      "titulo": "Petiscos",
+      "observacao": "Petiscos, porção e tira gosto....",
+      "horarios": null,
+      "ordem": 10,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 402363,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Isca de Frango",
+              "descricao": "",
+              "preco": 50.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402363.png?v=1185066001",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402364,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Isca de Tilápia ",
+              "descricao": "",
+              "preco": 64.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402364.png?v=1103710500",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402795,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Batata Especial",
+              "descricao": "",
+              "preco": 46,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402795.png?v=508627687",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402801,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Bolinho de Carne Seca",
+              "descricao": "",
+              "preco": 44.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402801.png?v=1719933448",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402802,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Disco de Carne",
+              "descricao": "",
+              "preco": 48.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402802.png?v=1672106806",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402805,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Frango a Passarinho",
+              "descricao": "",
+              "preco": 49.99,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402805.png?v=1195219128",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402811,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 7,
+              "nome": "Disco de Costela",
+              "descricao": "",
+              "preco": 49.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402811.png?v=1026618707",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444100,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 8,
+              "nome": "Batata Simples",
+              "descricao": "",
+              "preco": 32,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444100.png?v=908659783",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444108,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 9,
+              "nome": "Tábua de Frios",
+              "descricao": "",
+              "preco": 59.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444108.png?v=331087923",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444109,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 10,
+              "nome": "Pastelzinho Variados",
+              "descricao": "",
+              "preco": 42.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 505254,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 11,
+              "nome": "Picanha na Chapa",
+              "descricao": "Uma explosão de sabor!\r\nTiras de Picanha grelhadas na chapa, acompanhadas de Mandioca, Mussarela, Pimentão e Cebola.",
+              "preco": 129.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_505254.png?v=1129997882",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 505255,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 12,
+              "nome": "Chapa Mista Seven",
+              "descricao": "Um prato completo para você!\r\nContra Filé, Frango, Calabresa, Bacon, Mussarela, Batata Frita e Cebola. Tudo na chapa, tudo delicioso!",
+              "preco": 99.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_505255.png?v=1812792349",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 505256,
+              "categoriaId": 45041,
+              "subgrupoId": null,
+              "ordemFonte": 13,
+              "nome": "Batata Seven",
+              "descricao": "A combinação perfeita!\r\nBatata Frita crocante, Costela Defumada desfiada e um Molho Especial de Cheddar que vai derreter na sua boca!",
+              "preco": 49.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_505256.png?v=577445474",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45115,
+      "titulo": "Garrafas",
+      "observacao": "Garrafas de destilados, licor, whisky....",
+      "horarios": null,
+      "ordem": 11,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 402818,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Tanqueray",
+              "descricao": "Garrafa de gin Tanqueray",
+              "preco": 240,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402818.png?v=1687554393",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402821,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Royal Salute 21y",
+              "descricao": "Garrafa de whisky Royal Salute 21 anos.",
+              "preco": 1200,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402821.png?v=1065319376",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402823,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Gold Label",
+              "descricao": "Garrafa de whisky Gold Label",
+              "preco": 450,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402823.png?v=1018892464",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402824,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Ballena",
+              "descricao": "Garrafa de licor creme de morango Ballena",
+              "preco": 300,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402824.png?v=1062225941",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402825,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Licor 43 Chocolate",
+              "descricao": "Garrafa de licor 43 chocolate",
+              "preco": 280,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402825.png?v=249414279",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402827,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Buchanans",
+              "descricao": "Garrafa de whisky Buchanans",
+              "preco": 330,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402827.png?v=356548064",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402828,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 7,
+              "nome": "Jack Daniel's Trad.",
+              "descricao": "Garrafa de whisky Jack Daniel's tradicional",
+              "preco": 290,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402828.png?v=804819614",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402832,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 8,
+              "nome": "Licor 43",
+              "descricao": "Garrafa de Licor 43 Tradicional",
+              "preco": 220,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402832.png?v=314654629",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402833,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 9,
+              "nome": "Chivas 12y",
+              "descricao": "Garrafa de whisky Chivas 12 anos",
+              "preco": 280,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402833.png?v=523059261",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402834,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 10,
+              "nome": "Old Parr",
+              "descricao": "Garrafa de whisky Old Parr",
+              "preco": 290,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402834.png?v=1206041833",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402839,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 11,
+              "nome": "Beefeater Trad",
+              "descricao": "Garrafa de gin beefeater tradicional",
+              "preco": 220,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402839.png?v=1712640826",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 402842,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 12,
+              "nome": "Ballantines",
+              "descricao": "Garrafa de whisky Ballantines",
+              "preco": 199,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_402842.png?v=1118402572",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444111,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 13,
+              "nome": "Absolut Vodka",
+              "descricao": "",
+              "preco": 180,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444111.png?v=1527101570",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444112,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 14,
+              "nome": "Chivas 18y",
+              "descricao": "",
+              "preco": 600,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444112.png?v=1056370881",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444113,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 15,
+              "nome": "Campari",
+              "descricao": "",
+              "preco": 160,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444113.png?v=296919638",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444845,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 16,
+              "nome": "Beefeater Pink Strawberry",
+              "descricao": "",
+              "preco": 250,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444845.png?v=671742413",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444846,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 17,
+              "nome": "Beefeater 24",
+              "descricao": "",
+              "preco": 280,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444846.png?v=1746061414",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 536486,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 18,
+              "nome": "Red label ",
+              "descricao": "",
+              "preco": 200,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575164,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 19,
+              "nome": "Jack de maçã verde ",
+              "descricao": "",
+              "preco": 280,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575164_417110350.png?v=723821006",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575165,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 20,
+              "nome": "Jack honey (mel)",
+              "descricao": "",
+              "preco": 280,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575165_67223287.png?v=1839629389",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575166,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 21,
+              "nome": "Ballantines finest",
+              "descricao": "",
+              "preco": 180,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575166_1391000645.png?v=1536955046",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575171,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 22,
+              "nome": "Chandon passion ",
+              "descricao": "",
+              "preco": 190,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575171_605446009.png?v=1483127522",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575172,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 23,
+              "nome": "Chandon bruit rose",
+              "descricao": "",
+              "preco": 190,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575172_1739987632.png?v=282782681",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 575175,
+              "categoriaId": 45115,
+              "subgrupoId": null,
+              "ordemFonte": 24,
+              "nome": "Jose cuervo",
+              "descricao": "",
+              "preco": 220,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_575175_201442252.png?v=1477342016",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45216,
+      "titulo": "Drinks",
+      "observacao": "Drinks, shots e outros...",
+      "horarios": null,
+      "ordem": 12,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 403856,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Caipirinha de Limão",
+              "descricao": "Limão, Cachaça 51 e Xr simples",
+              "preco": 24,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_403856.png?v=1910024624",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 403859,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Cajazinha",
+              "descricao": "Fiu Fiu de Cajá, suco de cajá e água com gás.",
+              "preco": 35.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_403859.png?v=723976531",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 403862,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Gin de Morango",
+              "descricao": "Gin, Morango e St Pierre",
+              "preco": 32.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_403862.png?v=156152282",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444114,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "Caipivodka Limão",
+              "descricao": "Limão, Xr simples e Vodka",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444115,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Gin Tropical",
+              "descricao": "Gin, Red bull Tropical e Xr de Maracujá",
+              "preco": 32.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444115.png?v=862121161",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444116,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Gin Tonica",
+              "descricao": "Gin e Água Tônica.",
+              "preco": 32.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444116.png?v=581195683",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444117,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 7,
+              "nome": "Soda Italiana",
+              "descricao": "",
+              "preco": 16.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 445474,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 8,
+              "nome": "Caipirinha de Morango",
+              "descricao": "Morango, Xr simples e Cachaça 51.",
+              "preco": 24,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_445474.png?v=1588348636",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 445475,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 9,
+              "nome": "Caipirinha de Abacaxi",
+              "descricao": "Abacaxi, Xr simples e Cachaça 51.",
+              "preco": 24,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_445475.png?v=2023267650",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 465184,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 10,
+              "nome": "Caipvodka Morango",
+              "descricao": "Morango, Xr simples e Vodka",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 465186,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 11,
+              "nome": "Caipvodka Maracujá",
+              "descricao": "Maracujá, Xr simples e Vodka.",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 465187,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 12,
+              "nome": "Caipirinha Maracujá",
+              "descricao": "Maracujá, Xr simples e Cachaça 51.",
+              "preco": 24,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467433,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 13,
+              "nome": "Whisky Sour",
+              "descricao": "Whisky, caldo de limão, Xr simples e clara de ovo",
+              "preco": 45.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467433.png?v=628598627",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467434,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 14,
+              "nome": "Caipirinha com Melaço de Cana",
+              "descricao": "Caipirinha com Melaço de Cana",
+              "preco": 23.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467434.png?v=550266272",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467436,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 15,
+              "nome": "Strawberry mule",
+              "descricao": "Vodca,  morangos frescos , suco de limão e xr de açúcar.",
+              "preco": 29.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467436_55552741.png?v=684499821",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467437,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 16,
+              "nome": "Pitainha",
+              "descricao": "",
+              "preco": 30.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467437.png?v=879031016",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467438,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 17,
+              "nome": "viuva negra",
+              "descricao": "grenadine , espumante, gin e agua com gas .",
+              "preco": 29.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467438_202587453.png?v=160487327",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 467439,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 18,
+              "nome": "Céu de Brigadeiro",
+              "descricao": "Fiu-Fiu Brigadeiro, Bailarinas de Café, leite condensado e creme de leite.",
+              "preco": 29.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_467439.png?v=1134498231",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 496216,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 19,
+              "nome": "mojito de uva",
+              "descricao": "Fiu-Fiu de abacaxi , Uvas frescas ,Suco de Limão, xr e acucar  e folhas de Hortelã.",
+              "preco": 29.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 496218,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 20,
+              "nome": "sexy one the beach",
+              "descricao": "",
+              "preco": 26.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_496218_115512267.png?v=1222163506",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 496220,
+              "categoriaId": 45216,
+              "subgrupoId": null,
+              "ordemFonte": 21,
+              "nome": "Maracujack",
+              "descricao": "",
+              "preco": 24.9,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_496220.png?v=1618527432",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49349,
+      "titulo": "Doses",
+      "observacao": "",
+      "horarios": null,
+      "ordem": 13,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 444089,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Ballena",
+              "descricao": "Dose Ballena",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444089.png?v=1842849380",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444090,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Campari",
+              "descricao": "Dose de Campari",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444090.png?v=1446119843",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444091,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "Licor 43 Chocolate",
+              "descricao": "",
+              "preco": 30,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444091.png?v=1386876916",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444092,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 4,
+              "nome": "ParaTudo",
+              "descricao": "",
+              "preco": 15,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444092.png?v=1512670111",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444093,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 5,
+              "nome": "Licor 43",
+              "descricao": "",
+              "preco": 25,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444093.png?v=603438718",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444094,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 6,
+              "nome": "Tequila",
+              "descricao": "",
+              "preco": 15,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444094.png?v=1270682347",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444097,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 7,
+              "nome": "Gin",
+              "descricao": "",
+              "preco": 20,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444097.png?v=1591836139",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 444098,
+              "categoriaId": 49349,
+              "subgrupoId": null,
+              "ordemFonte": 8,
+              "nome": "Vodka",
+              "descricao": "",
+              "preco": 20,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444098.png?v=1926625175",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51146,
+      "titulo": "sobremesas ",
+      "observacao": null,
+      "horarios": null,
+      "ordem": 14,
+      "blocos": [
+        {
+          "subgrupoId": null,
+          "titulo": null,
+          "produtos": [
+            {
+              "id": 444107,
+              "categoriaId": 51146,
+              "subgrupoId": null,
+              "ordemFonte": 1,
+              "nome": "Petit Gateau",
+              "descricao": "",
+              "preco": 27.99,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": "https://www.dg-media.com.br/cardapio/produto_444107.png?v=1966826737",
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 462733,
+              "categoriaId": 51146,
+              "subgrupoId": null,
+              "ordemFonte": 2,
+              "nome": "Petit Gateau doce de leite ",
+              "descricao": "",
+              "preco": 27.99,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            },
+            {
+              "id": 462735,
+              "categoriaId": 51146,
+              "subgrupoId": null,
+              "ordemFonte": 3,
+              "nome": "top sundae de morango ",
+              "descricao": "",
+              "preco": 28.99,
+              "precoPromocional": null,
+              "ocultarPreco": false,
+              "fotoUrl": null,
+              "variacoesPreco": [],
+              "fotosAdicionais": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+FIM DO ANEXO. Construa o cardápio completo seguindo o briefing acima.

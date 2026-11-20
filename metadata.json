@@ -1,0 +1,6 @@
+{
+  "name": "Seven Lounge & Drinks — Cardápio Digital",
+  "description": "Cardápio digital oficial da Seven Lounge & Drinks. A noite começa aqui: drinks exclusivos, petiscos especiais, cervejas e programação de Happy Hour.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
